@@ -1,19 +1,32 @@
-![SofleKeyboard default keymap](https://github.com/josefadamcik/SofleKeyboard/raw/master/Images/soflekeyboard.png)
-![SofleKeyboard adjust layer](https://github.com/josefadamcik/SofleKeyboard/raw/master/Images/soflekeyboard_layout_adjust.png)
+[![Luna - The QMK Keyboard Pet](https://www.simonepellegrino.com/wp-content/uploads/2021/05/luna.jpg)](https://www.youtube.com/watch?v=HgIQRazCAjo)
 
-
-# Default keymap for Sofle Keyboard
-
-Layout in [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/76efb423a46cbbea75465cb468eef7ff) and [adjust layer](http://www.keyboard-layout-editor.com/#/gists/4bcf66f922cfd54da20ba04905d56bd4)
+# Personal keymap for Sofle Keyboard rev1
 
 
 Features:
 
-- Symmetric modifiers (CMD/Super, Alt/Opt, Ctrl, Shift)
-- Various modes, can be switched (using Adjust layer and the selected one is stored in EEPROM.
-- Modes for Qwerty and Colemak support
-- Modes for Mac vs Linux/Win support -> different order of modifiers and different action shortcuts on the "UPPER" layer (the red one in the image). Designed to simplify transtions when switching between operating systems often.
-- The OLED on master half shows selected mode and caps lock state and is rotated.
-- Left encoder controls volume up/down/mute. Right encoder PGUP/PGDOWN.
+- Modes for Qwerty and Games support. Games swaps enter and space to play FPS games and adds directional arrows.
+- Modified Qwerty layout to allow usage without hidden layers (for the most).
+- The OLED on master half shows selected OS, Layer and caps lock state.
+- The secondary display shows a logo and the wpm counter.
+- Left encoder controls arrow left/right. Right encoder arrow up/down.
+- Holding shift changes the encoders to next/previous and volup/voldown respectively.
+- Press the encoders to play/pause and mute.
+- Smart Backspace (shift + backspace to delete)
+- Single Layer button (press to Lower, shift + press to change mode)
+- **Features Luna, your keyboard pet!**
+
+#Luna, the keyboard pet
+
+Features:
+- Luna reacts to your wpm counter
+    - under 10 wpm she sits
+    - between 10 and 40 wpm she walks
+    - over 40 wpm she runs
+- She will move sneakily if you hold down Ctrl
+- Will bark at people on the internet if you activate Caps Lock!
+- Luna jumps every time you hit Space
 
 
+Learn how to adopt a keyboard pet here
+https://www.youtube.com/watch?v=HgIQRazCAjo
